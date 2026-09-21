@@ -2,7 +2,7 @@
 name: SirBlobman/CombatLogX
 slug: combatlogx
 source_url: https://raw.githubusercontent.com/SirBlobman/CombatLogX/HEAD/README.MD
-fetched_at: 2026-06-07T21:24:09.843Z
+fetched_at: 2026-09-21T09:41:05.209Z
 adapter: github-readme
 ---
 # SirBlobman/CombatLogX — condensed reference
@@ -21,8 +21,8 @@ things and change how the plugin works.
 
 ## Requirements
 
-- Java 25
-- [Spigot](https://spigotmc.org/), [Paper](https://papermc.io/download/paper), or [Folia](https://papermc.io/software/folia) 1.19.4-26.1.2
+- Java 8
+- [Spigot](https://spigotmc.org/), [Paper](https://papermc.io/download/paper), or [Folia](https://papermc.io/software/folia) 1.8.8-26.1.2
 - [BlueSlimeCore](https://hangar.papermc.io/SirBlobman/BlueSlimeCore) 2.9.9 or higher.
 
 ## Installation Guide

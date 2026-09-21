@@ -1,47 +1,59 @@
 ---
-name: HelpChat/DeluxeMenus
-slug: deluxemenus
-source_url: https://raw.githubusercontent.com/HelpChat/DeluxeMenus/HEAD/README.md
-fetched_at: 2026-06-07T21:17:07.977Z
-adapter: github-readme
+name: wiki.helpch.at
+slug: wiki-deluxemenus
+source_url: https://wiki.helpch.at/clips-plugins/deluxemenus.md
+fetched_at: 2026-09-21T09:40:54.751Z
+adapter: gitbook
 ---
-# HelpChat/DeluxeMenus — condensed reference
-> Condensed by mcwrench/learn-plugin-docs from <https://raw.githubusercontent.com/HelpChat/DeluxeMenus/HEAD/README.md>. Full text in RAW.md. Verify against the live docs for anything safety-critical.
+# wiki.helpch.at — condensed reference
+> Condensed by mcwrench/learn-plugin-docs from <https://wiki.helpch.at/clips-plugins/deluxemenus.md>. Full text in RAW.md. Verify against the live docs for anything safety-critical.
 
 ## Reference
 
-## HelpChat/DeluxeMenus
+## Page Not Found
 
-[logo]: https://github.com/HelpChat/DeluxeMenus/assets/52609756/f24ac57d-98db-4d57-a723-791a2654e73f
+The URL `clips-plugins/deluxemenus` does not exist. This page may have been moved, renamed, or deleted.
 
-[issues]: https://github.com/HelpChat/DeluxeMenus/issues
-[license]: https://github.com/HelpChat/DeluxeMenus/blob/master/LICENSE
+## Suggested Pages
 
-[bstats]: https://bstats.org/plugin/bukkit/DeluxeMenus/445
+You may be looking for one of the following:
+- [DeluxeMenus](https://wiki.helpch.at/helpchat-plugins/deluxemenus.md)
+- [DeluxeCommands](https://wiki.helpch.at/clips-plugins/deluxecommands.md)
+- [DeluxeChat](https://wiki.helpch.at/clips-plugins/deluxechat.md)
+- [DeluxeJoin](https://wiki.helpch.at/clips-plugins/deluxejoin.md)
+- [DeluxeTags](https://wiki.helpch.at/helpchat-plugins/deluxetags.md)
 
-[discord]: https://helpch.at/discord
-[spigot]: https://www.spigotmc.org/resources/11734/
+## How to find the correct page
 
-[ci]: http://ci.extendedclip.com/job/DeluxeMenus/
-[ciImg]: http://ci.extendedclip.com/buildStatus/icon?job=DeluxeMenus
+If the exact page cannot be found, you can still retrieve the information using the documentation query interface.
 
-[contributing]: https://github.com/HelpChat/DeluxeMenus/blob/main/CONTRIBUTING.md
+### Option 1 — Ask a question (recommended)
 
-## Information
-[DeluxeMenus][spigot] is the all in one inventory GUI menu plugin!
-You can create GUI menus that open with custom commands that will show stats or perform actions specific to the player who opened it. Your menus are fully configurable. You can create menus that show specific items to different players, or perform different actions depending on what javascript requirement they have for the specific slot in a certain GUI.
+Perform an HTTP GET request on the documentation index with the `ask` parameter, and the optional `goal` parameter:
 
-DeluxeMenus depends on [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/).
+```
+GET https://wiki.helpch.at/helpchat-plugins/deluxemenus.md?ask=<question>&goal=<end_goal>
+```
 
-## Contribute
-If you would like to contribute towards DeluxeMenus should you take a look at our [Contributing file][contributing] for the ins and outs on how you can do that and what you need to keep in mind.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
 
-## Support
-- [Issue Tracker][issues]
-- [Discord Support][discord]
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
-## Quick Links
-- [Wiki](https://wiki.helpch.at/clips-plugins/deluxemenus/)
-- [CI Server][ci]
-- [Spigot Page][spigot]
-- [Plugin Statistics][bstats]
+### Option 2 — Browse the documentation index
+
+Full index: https://wiki.helpch.at/sitemap.md
+
+Use this to discover valid page paths or navigate the documentation structure.
+
+### Option 3 — Retrieve the full documentation corpus
+
+Full export: https://wiki.helpch.at/llms-full.txt
+
+Use this to access all content at once and perform your own parsing or retrieval. It will be more expensive.
+
+## Tips for requesting documentation
+
+Prefer `.md` URLs for structured content, append `.md` to URLs (e.g., `/helpchat-plugins/deluxemenus.md`).
+
+You may also use `Accept: text/markdown` header for content negotiation.

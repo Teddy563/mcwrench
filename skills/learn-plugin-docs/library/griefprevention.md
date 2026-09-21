@@ -2,7 +2,7 @@
 name: GriefPrevention/GriefPrevention
 slug: griefprevention
 source_url: https://raw.githubusercontent.com/GriefPrevention/GriefPrevention/HEAD/README.md
-fetched_at: 2026-06-07T21:17:17.845Z
+fetched_at: 2026-09-21T09:40:51.062Z
 adapter: github-readme
 ---
 # GriefPrevention/GriefPrevention — condensed reference

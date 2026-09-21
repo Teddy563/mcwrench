@@ -2,7 +2,7 @@
 name: HuskHomes
 slug: huskhomes
 source_url: https://modrinth.com/mod/huskhomes
-fetched_at: 2026-06-07T21:22:56.789Z
+fetched_at: 2026-09-21T09:40:59.631Z
 adapter: modrinth
 ---
 # HuskHomes — condensed reference
@@ -16,7 +16,7 @@ The powerful & intuitive set homes, warps, and teleports plugin/mod
 _client: unknown · server: unknown_
 
 **Categories:** management, transportation, utility
-**Game versions:** 1.21.2, 1.21.3, 1.21.4, 1.21.5, 1.21.6, 1.21.7, 1.21.8, 1.21.11
+**Game versions:** 1.21.6, 1.21.7, 1.21.8, 1.21.11, 26.1.1, 26.1.2, 26.2, 26.3
 **Source:** https://github.com/WiIIiam278/HuskHomes/
 **Wiki:** https://william278.net/docs/huskhomes
 

@@ -2,7 +2,7 @@
 name: squaremap
 slug: squaremap
 source_url: https://modrinth.com/mod/squaremap
-fetched_at: 2026-06-07T21:22:59.927Z
+fetched_at: 2026-09-21T09:41:00.911Z
 adapter: modrinth
 ---
 # squaremap — condensed reference
@@ -24,7 +24,7 @@ squaremap is a minimalistic & lightweight world map viewer for Minecraft servers
 _client: unknown · server: unknown_
 
 **Categories:** decoration, social, utility
-**Game versions:** 1.21.3, 1.21.4, 1.21.5, 1.21.7, 1.21.8, 1.21.10, 1.21.11, 26.1.2
+**Game versions:** 1.21.5, 1.21.7, 1.21.8, 1.21.10, 1.21.11, 26.1.2, 26.2, 26.3
 **Source:** https://github.com/jpenilla/squaremap
 **Wiki:** https://github.com/jpenilla/squaremap/wiki
 

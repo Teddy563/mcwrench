@@ -2,7 +2,7 @@
 name: TritonMC/Triton
 slug: triton
 source_url: https://raw.githubusercontent.com/TritonMC/Triton/HEAD/README.md
-fetched_at: 2026-06-07T21:37:07.656Z
+fetched_at: 2026-09-21T09:41:08.312Z
 adapter: github-readme
 ---
 # TritonMC/Triton — condensed reference
@@ -100,3 +100,6 @@ To compile, clone this repository and run the following command:
 ```sh
 ./gradlew shadowJar
 ```
+
+**Make sure JDK 25 or newer is installed on your system,
+as it is not possible to compile Triton with an older JDK version.**

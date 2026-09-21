@@ -2,7 +2,7 @@
 name: pop4959/Chunky
 slug: chunky
 source_url: https://raw.githubusercontent.com/pop4959/Chunky/HEAD/README.md
-fetched_at: 2026-06-07T21:17:16.069Z
+fetched_at: 2026-09-21T09:40:56.776Z
 adapter: github-readme
 ---
 # pop4959/Chunky — condensed reference

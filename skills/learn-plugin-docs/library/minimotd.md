@@ -2,7 +2,7 @@
 name: MiniMOTD
 slug: minimotd
 source_url: https://modrinth.com/mod/minimotd
-fetched_at: 2026-06-07T21:22:55.235Z
+fetched_at: 2026-09-21T09:40:58.884Z
 adapter: modrinth
 ---
 # MiniMOTD — condensed reference
@@ -21,7 +21,7 @@ Minecraft plugin/mod to set the server list MOTD using MiniMessage for formattin
 _client: unsupported · server: required_
 
 **Categories:** decoration, utility
-**Game versions:** 1.21.7, 1.21.8, 1.21.9, 1.21.10, 1.21.11, 26.1, 26.1.1, 26.1.2
+**Game versions:** 1.21.9, 1.21.10, 1.21.11, 26.1, 26.1.1, 26.1.2, 26.2, 26.3
 **Source:** https://github.com/jpenilla/MiniMOTD
 **Wiki:** https://github.com/jpenilla/MiniMOTD/wiki
 

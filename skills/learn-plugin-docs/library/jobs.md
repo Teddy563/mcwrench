@@ -2,7 +2,7 @@
 name: Zrips/Jobs
 slug: jobs
 source_url: https://raw.githubusercontent.com/Zrips/Jobs/HEAD/README.md
-fetched_at: 2026-06-07T21:23:04.360Z
+fetched_at: 2026-09-21T09:41:03.478Z
 adapter: github-readme
 ---
 # Zrips/Jobs — condensed reference

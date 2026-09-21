@@ -2,7 +2,7 @@
 name: ServerUtils
 slug: serverutils
 source_url: https://modrinth.com/mod/serverutils
-fetched_at: 2026-06-07T21:22:57.743Z
+fetched_at: 2026-09-21T09:40:59.877Z
 adapter: modrinth
 ---
 # ServerUtils — condensed reference

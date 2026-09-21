@@ -2,7 +2,7 @@
 name: AuraSkills
 slug: auraskills
 source_url: https://modrinth.com/mod/auraskills
-fetched_at: 2026-06-07T21:35:54.941Z
+fetched_at: 2026-09-21T09:41:06.240Z
 adapter: modrinth
 ---
 # AuraSkills — condensed reference
@@ -30,7 +30,7 @@ The ultra-versatile RPG skills plugin. Formerly known as Aurelium Skills.
 _client: unsupported · server: required_
 
 **Categories:** adventure, game-mechanics
-**Game versions:** 1.21.7, 1.21.8, 1.21.9, 1.21.10, 1.21.11, 26.1, 26.1.1, 26.1.2
+**Game versions:** 1.21.9, 1.21.10, 1.21.11, 26.1, 26.1.1, 26.1.2, 26.2, 26.3
 **Source:** https://github.com/Archy-X/AuraSkills
 **Wiki:** https://wiki.aurelium.dev/auraskills/
 

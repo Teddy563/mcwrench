@@ -2,7 +2,7 @@
 name: DriveBackupV2
 slug: drivebackupv2
 source_url: https://modrinth.com/mod/drivebackupv2
-fetched_at: 2026-06-07T21:35:57.023Z
+fetched_at: 2026-09-21T09:41:07.992Z
 adapter: modrinth
 ---
 # DriveBackupV2 — condensed reference

@@ -1,74 +1,112 @@
 ---
-name: NEZNAMY/TAB
+name: NEZNAMY/TAB wiki
 slug: tab
-source_url: https://raw.githubusercontent.com/NEZNAMY/TAB/HEAD/README.md
-fetched_at: 2026-06-07T21:17:14.112Z
-adapter: github-readme
+source_url: https://raw.githubusercontent.com/wiki/NEZNAMY/TAB/Home.md
+fetched_at: 2026-09-21T09:40:57.557Z
+adapter: github-wiki
 ---
-# NEZNAMY/TAB — condensed reference
-> Condensed by mcwrench/learn-plugin-docs from <https://raw.githubusercontent.com/NEZNAMY/TAB/HEAD/README.md>. Full text in RAW.md. Verify against the live docs for anything safety-critical.
+# NEZNAMY/TAB wiki — condensed reference
+> Condensed by mcwrench/learn-plugin-docs from <https://raw.githubusercontent.com/wiki/NEZNAMY/TAB/Home.md>. Full text in RAW.md. Verify against the live docs for anything safety-critical.
 
 ## Overview
 
-## About
-TAB aims to be a superior all-in-one minecraft plugin for displaying information that outperforms all 
-similar plugins in terms of features, performance and compatibility.  
-More information can be found at [Why TAB?](https://github.com/NEZNAMY/TAB/wiki/Why-TAB%3F) wiki page.
+## About the wiki
+The wiki explains the functionality of the plugin as of version **6.2.0**.
+If your config looks different or is missing some features, you are using an old version of the plugin.
+To get the latest version, check [releases](https://github.com/NEZNAMY/TAB/releases/).  
+Wiki for older plugin versions is not available.
+
+If you plan to run your server for longer than 1 week,
+it's a good idea to read this wiki as it explains everything about the plugin.
+This will give you knowledge to do things you had no idea were possible, giving you an advantage over everyone else.
+
+A lot of examples on the wiki use PlaceholderAPI placeholders without explaining its installation step by step. If you are going to use the examples and aren't familiar with the plugin, check out [Quick PlaceholderAPI startup guide](https://github.com/NEZNAMY/TAB/wiki/Quick-PlaceholderAPI-startup-guide).
 
 ## Installation
 
-## Download
+## Getting started
+* [Why TAB?](https://github.com/NEZNAMY/TAB/wiki/Why-TAB%3F)
+* [Installation](https://github.com/NEZNAMY/TAB/wiki/Installation)  
+* [Commands & Permissions](https://github.com/NEZNAMY/TAB/wiki/Commands-&-Permissions)  
+* [Frequently Asked Questions](https://github.com/NEZNAMY/TAB/wiki/Frequently-Asked-Questions)  
+* [Compatibility](https://github.com/NEZNAMY/TAB/wiki/Compatibility)
+* [How to assign players into groups](https://github.com/NEZNAMY/TAB/wiki/How-to-assign-players-into-groups)  
+* [Known issues](https://github.com/NEZNAMY/TAB/wiki/Known-issues)
+* [TAB-Bridge plugin](https://github.com/NEZNAMY/TAB/wiki/TAB-Bridge)
 
 ## Details
 
-## NEZNAMY/TAB
+## NEZNAMY/TAB (wiki)
 
-### Releases
-You can download full releases from [GitHub releases](https://github.com/NEZNAMY/TAB/releases), 
-[SpigotMC](https://www.spigotmc.org/resources/57806/), [Modrinth](https://modrinth.com/plugin/tab-was-taken), [BuiltByBit](https://builtbybit.com/resources/20631) or [CurseForge](https://www.curseforge.com/minecraft/mc-mods/tab).
+## Terminology
+On order to not have to explain something every time it is mentioned, it will be explained here once.
+| Name           | Description           |
+|----------------|-----------------------|
+| proxy server   | Server running BungeeCord or Velocity software, which are used to connect multiple servers, allowing easy transfer between them. |
+| modded server  | Fabric, Forge and NeoForge. |
+| backend server | Minecraft server that is actually being played on, not a proxy. This includes Bukkit (and its forks) and modded servers |
 
-### Dev builds
-Plugin's development is continuous and contains lots of small changes/fixes not worthy of being called a full
-update, therefore development builds are being created and eventually a full update is released when enough changes are made.  
-If you want to benefit from a recent change in the code before official release, you can download development builds
-from [GitHub actions](https://github.com/NEZNAMY/TAB/actions) (you must be logged into GitHub to be able to download it).
+## Limitations of plugins
+TAB is a plugin (even on modded platforms, it is only a server-sided mod).
+It only modifies the server behavior to your liking.
+It does not add anything into the game.
+Because of that, you'll need
+to carefully read the limitations of each feature to know what they are capable of and what they are not capable of.
+Some of the undesired behavior can be altered using a resource pack and some using a modified client.
+Both of these are out of scope of TAB as a plugin; therefore, no advanced information regarding this is provided.
 
-## Compiling
-Compilation requires JDK 25 and up.  
-To compile the plugin, run `./gradlew build` from the terminal.  
-Once the plugin compiles, grab the jar from `/jar/build/libs/` folder.  
-The universal jar contains all modules for all supported platforms.
+## Public plugin
+TAB is a public plugin designed to satisfy the needs of a majority of servers.
 
-## Documentation
-You can find everything about the plugin on the [Wiki](https://github.com/NEZNAMY/TAB/wiki). This includes a detailed description
-of all features, as well as information regarding compatibility or limitations of each feature.
+This means it has functions not everyone will need. All you need to do is disable functions you don't want. Disabled features do not consume the CPU at all.
 
-## Issues
-The [Issues](https://github.com/NEZNAMY/TAB/issues) section is an issue tracker for all the kind of problems covered in issue templates.
-Please refrain from attempting to use it to receive help with your server, such issues will be closed immediately.  
-When opening an issue, provide as much information as possible. The difference between a bug getting fixed in 1 week vs 1 hour
-is in quality of the report. Bug reports where steps to reproduce are "idk" have no value and will not help to get the bug fixed at all.
+On the other hand, it cannot contain everything everyone can think of.
+There must be a balance
+between providing as much as possible while making the configuration as short and readable as possible.
+This is not an easy task.
+The majority of things that are not supported directly can be achieved in different ways.
+Adding direct way for everything everyone asks for would not only take a lot of time,
+but make the plugin harder to configure for everyone, as well as introduce a lot of duplicate ways to achieve things,
+making the plugin overcomplicated.  
+If your need is very specific and not available in the plugin in any way,
+you should look into private plugin development.
+You will end up with a plugin made just for you with everything you want and nothing else.
 
-## Contributing
-See [CONTRIBUTING.md](https://github.com/NEZNAMY/TAB/blob/master/CONTRIBUTING.md)
+## Wiki pages
 
-## Provided services
-The plugin is being used by a large amount of servers, which also means the demand for my attention is high. Unfortunately, 
-I am no longer able to keep up with the demand since I don't want to dedicate my whole existence to a free plugin. 
-In order to provide the best quality of all provided services, the amount of services provided may vary over time. 
-Here is the full list of potential services and their status:
+## Core features
+* [Belowname](https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Belowname)
+* [Bossbar](https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Bossbar)
+* [Global playerlist](https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Global-playerlist)
+* [Header/Footer](https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Header-&-Footer)
+* [Layout](https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Layout)
+* [Multi server support](https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Multi-server-support)
+* [Nametags](https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Nametags)
+* [Per world playerlist](https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Per-world-playerlist)
+* [Ping spoof](https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Ping-Spoof)
+* [Playerlist objective](https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Playerlist-Objective)
+* [Scoreboard](https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Scoreboard)
+* [Sorting in tablist](https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Sorting-players-in-tablist)  
+* [Spectator fix](https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Spectator-fix)
+* [Tablist name formatting](https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Tablist-name-formatting)
 
-| Service type                  | Availability |
-|-------------------------------|--------------|
-| Updates for new MC versions   | ✔            |
-| Bug fixes                     | ✔            |
-| Wiki improvements             | ✔            |
-| Performance optimizations     | ✔            |
-| Feature requests              | ❌            |
-| Customer support<sup>1</sup>  | ✔            |
-| Free user support<sup>2</sup> | ❌*           |
+## Functions
+* [Animations](https://github.com/NEZNAMY/TAB/wiki/Animations)
+* [Component usage (RGB, fonts, sprites)](https://github.com/NEZNAMY/TAB/wiki/How-to-use-Minecraft-components)
+* [Conditional placeholders](https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Conditional-placeholders)
+* [Error logging](https://github.com/NEZNAMY/TAB/wiki/Error-logging)  
+* [MySQL](https://github.com/NEZNAMY/TAB/wiki/MySQL)
+* [Placeholder output replacements](https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Placeholder-output-replacements)
+* [Placeholders](https://github.com/NEZNAMY/TAB/wiki/Placeholders)
 
-<sup>1</sup> - Unrestricted assistance with the plugin for those, who bought a copy of the plugin when it was purchasable.  
-<sup>2</sup> - Unlimited access to my free time for everyone in the world.  
-  
-*Instead, you can use [this fresh new community discord](https://discord.gg/YPqXt63YQj) made by a nice person who will provide this service.
+## Other
+* [Additional information](https://github.com/NEZNAMY/TAB/wiki/Additional-information)
+* [Bedrock compatibility](https://github.com/NEZNAMY/TAB/wiki/Bedrock-compatibility)
+* [Client-sided mechanics](https://github.com/NEZNAMY/TAB/wiki/Client%E2%80%90sided-mechanics)
+* [Developer API](https://github.com/NEZNAMY/TAB/wiki/Developer-API)
+* [How to display name from nickname plugins](https://github.com/NEZNAMY/TAB/wiki/How-to-display-name-from-nickname-plugins)
+* [How to save config in UTF-8 encoding](https://github.com/NEZNAMY/TAB/wiki/How-to-save-the-config-in-UTF8-encoding)
+* [How to set up compatibility with glow plugins](https://github.com/NEZNAMY/TAB/wiki/How-to-make-TAB-compatible-with-glow-plugins)
+* [Mini guides collection](https://github.com/NEZNAMY/TAB/wiki/Mini-guides-collection)
+* [Optimizing plugin's CPU usage](https://github.com/NEZNAMY/TAB/wiki/Optimizing-the-plugin)
+* [Quick PlaceholderAPI startup guide](https://github.com/NEZNAMY/TAB/wiki/Quick-PlaceholderAPI-startup-guide)

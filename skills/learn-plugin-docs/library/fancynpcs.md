@@ -2,7 +2,7 @@
 name: FancyNpcs
 slug: fancynpcs
 source_url: https://modrinth.com/mod/fancynpcs
-fetched_at: 2026-06-07T21:23:03.632Z
+fetched_at: 2026-09-21T09:41:02.854Z
 adapter: modrinth
 ---
 # FancyNpcs — condensed reference
@@ -26,7 +26,7 @@ Simple, lightweight and fast NPC plugin using packets
 _client: unsupported · server: required_
 
 **Categories:** decoration, utility
-**Game versions:** 1.21.11-pre4, 1.21.11-pre5, 1.21.11-rc2, 1.21.11-rc3, 1.21.11, 26.1, 26.1.1, 26.1.2
+**Game versions:** 1.21.11-rc3, 1.21.11, 26.1, 26.1.1, 26.1.2, 26.2-rc-2, 26.2, 26.3
 **Source:** https://github.com/FancyInnovations/FancyPlugins
 **Wiki:** https://fancyinnovations.com/docs/minecraft-plugins/fancynpcs
 

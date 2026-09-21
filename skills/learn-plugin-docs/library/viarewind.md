@@ -2,7 +2,7 @@
 name: ViaRewind
 slug: viarewind
 source_url: https://hangar.papermc.io/ViaVersion/ViaRewind
-fetched_at: 2026-06-07T21:23:06.173Z
+fetched_at: 2026-09-21T09:41:04.385Z
 adapter: hangar
 ---
 # ViaRewind — condensed reference
@@ -14,7 +14,7 @@ adapter: hangar
 ViaVersion addon to allow 1.8.x and 1.7.x clients on newer server versions.
 
 **Category:** misc
-**Downloads:** 235255
+**Downloads:** 248058
 
 ---
 _No main page content returned by Hangar._

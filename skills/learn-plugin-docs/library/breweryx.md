@@ -2,7 +2,7 @@
 name: BreweryX
 slug: breweryx
 source_url: https://modrinth.com/mod/breweryx
-fetched_at: 2026-06-07T21:35:56.441Z
+fetched_at: 2026-09-21T09:41:07.510Z
 adapter: modrinth
 ---
 # BreweryX — condensed reference

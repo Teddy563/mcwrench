@@ -2,7 +2,7 @@
 name: Velocitab
 slug: velocitab
 source_url: https://modrinth.com/mod/velocitab
-fetched_at: 2026-06-07T21:22:55.772Z
+fetched_at: 2026-09-21T09:40:59.128Z
 adapter: modrinth
 ---
 # Velocitab — condensed reference
@@ -43,7 +43,7 @@ A beautiful and versatile TAB list plugin for Velocity proxies
 _client: unsupported · server: required_
 
 **Categories:** management, social, utility
-**Game versions:** 1.21.3, 1.21.4, 1.21.5, 1.21.6, 1.21.7, 1.21.8, 1.21.9, 1.21.11
+**Game versions:** 1.21.8, 1.21.9, 1.21.11, 26.1, 26.1.1, 26.1.2, 26.2, 26.3
 **Source:** https://github.com/WiIIiam278/Velocitab/
 **Wiki:** https://william278.net/docs/velocitab/
 

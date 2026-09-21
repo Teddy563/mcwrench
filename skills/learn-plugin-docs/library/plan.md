@@ -2,7 +2,7 @@
 name: plan-player-analytics/Plan
 slug: plan
 source_url: https://raw.githubusercontent.com/plan-player-analytics/Plan/HEAD/README.md
-fetched_at: 2026-06-07T21:24:10.518Z
+fetched_at: 2026-09-21T09:41:05.449Z
 adapter: github-readme
 ---
 # plan-player-analytics/Plan — condensed reference

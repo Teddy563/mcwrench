@@ -2,7 +2,7 @@
 name: Minecrell/ServerListPlus
 slug: serverlistplus
 source_url: https://raw.githubusercontent.com/Minecrell/ServerListPlus/HEAD/README.md
-fetched_at: 2026-06-07T21:23:00.397Z
+fetched_at: 2026-09-21T09:41:01.307Z
 adapter: github-readme
 ---
 # Minecrell/ServerListPlus — condensed reference

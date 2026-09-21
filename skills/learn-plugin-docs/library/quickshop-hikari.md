@@ -2,7 +2,7 @@
 name: QuickShop-Hikari
 slug: quickshop-hikari
 source_url: https://modrinth.com/mod/quickshop-hikari
-fetched_at: 2026-06-07T21:23:02.214Z
+fetched_at: 2026-09-21T09:41:02.351Z
 adapter: modrinth
 ---
 # QuickShop-Hikari — condensed reference
@@ -218,12 +218,12 @@ Note: Most features can be accessed by control panel or interaction with the sho
 ## Details
 
 ## QuickShop-Hikari
-A shop plugin that allows players to easily sell/buy any items from a chest without any commands.
+A chest shop plugin that allows players to easily sell/buy any items from a chest without any commands. Perfect for servers looking for an easy to use chestshop plugin!
 
 _client: unsupported · server: required_
 
 **Categories:** economy
-**Game versions:** 1.21.7, 1.21.8, 1.21.9, 1.21.10, 1.21.11, 26.1, 26.1.1, 26.1.2
+**Game versions:** 1.21.8, 1.21.9, 1.21.10, 1.21.11, 26.1, 26.1.1, 26.1.2, 26.2
 **Source:** https://github.com/QuickShop-Community/QuickShop-Hikari
 **Wiki:** https://quickshop-community.github.io/QuickShop-Hikari-Documents/
 
@@ -338,7 +338,6 @@ Enable the allow-stack option in config.yml, then you can create a stacking shop
 QuickShop-Hikari officially provides some plugins compatibility modules to make them work more closely with QuickShop, here is a list that we currently support:
 * AdvancedRegionMarket *(Remove shops when region reset)*
 * BentoBox *(Remove shops while the member was kicked out of the team)*
-* Clearlag *(Prevent clear the QuickShop displays if you hadn't installed ProtocolLib)*
-* GriefPrevention *(Remove sho
+* Clearlag *(Prevent clear the QuickShop displays
 
 …[truncated — see RAW.md for the full document]

@@ -2,7 +2,7 @@
 name: FastAsyncWorldEdit
 slug: fastasyncworldedit
 source_url: https://modrinth.com/mod/fastasyncworldedit
-fetched_at: 2026-06-07T21:35:54.648Z
+fetched_at: 2026-09-21T09:41:05.991Z
 adapter: modrinth
 ---
 # FastAsyncWorldEdit — condensed reference
@@ -30,7 +30,7 @@ Blazingly fast world manipulation for artists, builders and everyone else
 _client: unsupported · server: required_
 
 **Categories:** management, utility
-**Game versions:** 1.21.7, 1.21.8, 1.21.9, 1.21.10, 1.21.11, 26.1, 26.1.1, 26.1.2
+**Game versions:** 1.21.8, 1.21.9, 1.21.10, 1.21.11, 26.1, 26.1.1, 26.1.2, 26.2
 **Source:** https://github.com/IntellectualSites/FastAsyncWorldEdit
 **Wiki:** https://intellectualsites.github.io/fastasyncworldedit-documentation/
 

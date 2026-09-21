@@ -2,7 +2,7 @@
 name: Nan1t/NanoLimbo
 slug: nanolimbo
 source_url: https://raw.githubusercontent.com/Nan1t/NanoLimbo/HEAD/README.md
-fetched_at: 2026-06-07T21:23:01.246Z
+fetched_at: 2026-09-21T09:41:01.995Z
 adapter: github-readme
 ---
 # Nan1t/NanoLimbo — condensed reference
@@ -53,6 +53,7 @@ Symbol `X` means all minor versions.
 - [x] 1.20.X
 - [x] 1.21.X &nbsp; *(incl. 1.21.2, 1.21.3, 1.21.4, 1.21.5, 1.21.6, 1.21.7, 1.21.8, 1.21.9, 1.21.10, 1.21.11)*
 - [x] 26.1.X
+- [x] 26.2
 
 The server **doesn't** support snapshots.
 
@@ -68,7 +69,7 @@ Note that the server also will be closed correctly if you just press `Ctrl+C`.
 
 ### Installation
 
-Required software: JRE 17+
+Required software: JRE 21+
 
 The installation process is simple.
 
@@ -153,7 +154,7 @@ to add some functionality that is suitable for a limbo server and won't signific
 
 Required software:
 
-* JDK 17+
+* JDK 21+
 * Gradle 9+ (optional)
 
 To build a minimized jar, go to the project root directory and run in the terminal:

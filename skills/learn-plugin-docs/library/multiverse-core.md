@@ -2,7 +2,7 @@
 name: Multiverse-Core
 slug: multiverse-core
 source_url: https://hangar.papermc.io/Multiverse/Multiverse-Core
-fetched_at: 2026-06-07T21:17:08.376Z
+fetched_at: 2026-09-21T09:40:58.609Z
 adapter: hangar
 ---
 # Multiverse-Core — condensed reference
@@ -14,7 +14,7 @@ adapter: hangar
 The Bukkit World Management Plugin.
 
 **Category:** world_management
-**Downloads:** 27262
+**Downloads:** 31470
 
 ---
 _No main page content returned by Hangar._

@@ -2,7 +2,7 @@
 name: Tebex
 slug: tebex
 source_url: https://modrinth.com/mod/tebex
-fetched_at: 2026-06-07T21:35:56.131Z
+fetched_at: 2026-09-21T09:41:07.260Z
 adapter: modrinth
 ---
 # Tebex — condensed reference
@@ -74,7 +74,7 @@ Tebex allows you to sell items, subscriptions, and more from an in-game customiz
 _client: unknown · server: unknown_
 
 **Categories:** economy, management, utility
-**Game versions:** 1.21.7, 1.21.8, 1.21.9, 1.21.10, 1.21.11, 26.1, 26.1.1, 26.1.2
+**Game versions:** 1.21.8, 1.21.9, 1.21.10, 1.21.11, 26.1, 26.1.1, 26.1.2, 26.2
 **Source:** https://github.com/tebexio/Tebex-Minecraft
 **Wiki:** https://docs.tebex.io/creators/tebex-control-panel/game-servers/minecraft-java-edition
 

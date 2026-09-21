@@ -2,7 +2,7 @@
 name: FancyHolograms
 slug: fancyholograms
 source_url: https://modrinth.com/mod/fancyholograms
-fetched_at: 2026-06-07T21:23:03.998Z
+fetched_at: 2026-09-21T09:41:03.107Z
 adapter: modrinth
 ---
 # FancyHolograms — condensed reference
@@ -21,12 +21,12 @@ Paper **1.21.4** or newer with **Java 25** (or higher) is required. Plugin shoul
 ## Details
 
 ## FancyHolograms
-Create fancy looking text, item or block holograms with the new 1.19.4 text display entities
+Create fancy looking text, item or block holograms with display entities.
 
 _client: unsupported · server: required_
 
 **Categories:** decoration, utility
-**Game versions:** 1.21.11-pre4, 1.21.11-pre5, 1.21.11-rc2, 1.21.11-rc3, 1.21.11, 26.1, 26.1.1, 26.1.2
+**Game versions:** 1.21.11-rc2, 1.21.11-rc3, 1.21.11, 26.1, 26.1.1, 26.1.2, 26.2, 26.3
 **Source:** https://github.com/FancyInnovations/FancyPlugins
 **Wiki:** https://fancyinnovations.com/docs/minecraft-plugins/fancyholograms
 

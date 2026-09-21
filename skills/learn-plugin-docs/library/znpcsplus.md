@@ -2,7 +2,7 @@
 name: ZNPCsPlus
 slug: znpcsplus
 source_url: https://modrinth.com/mod/znpcsplus
-fetched_at: 2026-06-07T21:35:55.212Z
+fetched_at: 2026-09-21T09:41:06.499Z
 adapter: modrinth
 ---
 # ZNPCsPlus — condensed reference
@@ -40,6 +40,8 @@ _client: unsupported · server: required_
 ---
 
 ## ZNPCsPlus
+
+https://my.sculkhosting.com/ref/znpcsplus
 
 ZNPCsPlus is a powerful and intuitive Spigot plugin that allows you to create and manage fake entities in Minecraft. These entities can perform actions such as executing commands or switching servers, providing seamless integration and interactivity for players. 
 
@@ -82,7 +84,7 @@ This plugin is a modern, performance-focused remake of the original ZNPCs plugin
 ## Credits
 ZNPCsPlus wouldn't be possible without the following libraries and resources:
 - **[PacketEvents 2.0](https://github.com/retrooper/packetevents)**: Packet handling library.
-- **[Minecraft Protocol Wiki (formally wiki.vg)](https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Main_Page)**: Minecraft protocol documentation.
+- **[Minecraft Protocol Wiki (formerly wiki.vg)](https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Main_Page)**: Minecraft protocol documentation.
 - **[gson](https://github.com/google/gson)**: JSON parsing library by Google.
 - **[Mineskin.org](https://mineskin.org/)**: Website for raw skin file uploads
 - **[Adventure](https://docs.advntr.dev/)**: Minecraft text API.

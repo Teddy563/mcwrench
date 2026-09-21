@@ -2,7 +2,7 @@
 name: GSit
 slug: gsit
 source_url: https://modrinth.com/mod/gsit
-fetched_at: 2026-06-07T21:35:55.507Z
+fetched_at: 2026-09-21T09:41:06.754Z
 adapter: modrinth
 ---
 # GSit — condensed reference
@@ -10,13 +10,13 @@ adapter: modrinth
 
 ## Folia
 
-### <center>**Supports Spigot, Paper (+ all Forks), Folia Servers from 1.16 to 26.1!**</center>
-<center>(Pose and Crawl Features only work 1.17+)</center>
+### <center>**Supports Bukkit, Spigot, Paper (+ all Forks), Folia Servers from 1.16 to 26.3!**</center>
+<center>(Pose and Crawl features only works 1.18+)</center>
 
 **Overview**
 
 * **This is the ultimate Sit, Chair and Lay - Plugin which allows to sit on Stairs / Chairs**
-* Lay, Bellyflop, Spin & Crawl on the ground
+* Lay, Bellyflop, LegsUp, Spin & Crawl on the ground
 * This Plugin contains a lot of settings and features that all can be changed by you in the plugin config and the language files
 
 * Join the [**GPlugins Discord Server**](https://discord.gg/cy2p4au) for the latest **Updates** and **News**
@@ -27,9 +27,10 @@ adapter: modrinth
 * Very good performance
 * **Sit** on **every block** with "**/sit**"
 * **Crawl** on the ground with "**/crawl**"
-* **Lay** or **Bellyflop** on every block with "**/lay**" or "**/bellyflop**"
+* **Lay** or **Bellyflop** on every block with "**/lay**", "**/legsup**" or "**/bellyflop**"
 * You can let laying players snore without any Resource Pack!
 * Spin around with "**/spin**"
+* Crawl to corridors with the crawl feature
 * Simply right click on top of  a seat (stair, slab or carpet) to sit there
 * Create your own **custom list of materials** a **player can sit on**!
 * Click on another Player to sit on him and stack up! (Must be enabled in the Config!)
@@ -37,7 +38,7 @@ adapter: modrinth
 * Perfect sit direction calculated from the placement of the seat!
 * WorldGuard-Flags! ("sit" "playersit" "pose", "crawl") (requires the "ride", "interact" or "build" flag to be allowed)
 * Return a player to the location where he started sitting!
-* Set a **customized Sit**, **PlayerSit** or **Pose Message**
+* Set a **customized Sit**, **PlayerSit** or **Pose message**
 * Set the maximum distance between a player and the block!
 * Placeholders from **PlaceholderAPI** ("playertoggle", "posing", "sitting", "toggle")
 * **And many more ...**
@@ -63,13 +64,14 @@ adapter: modrinth
 
 **Commands**
 
-* **/sit (/gsit)** -> Sit on a Block
-* **/lay (/glay)** -> Lay on a Block
-* **/bellyflop (/gbellyflop)** -> BellyFlop on a Block
-* **/spin (/gspin)** -> Spin on a Block
+* **/sit (/gsit)** -> Sit on a block
+* **/lay (/glay)** -> Lay on a block
+* **/bellyflop (/gbellyflop)** -> BellyFlop on a block
+* **/legsup (/glegsup)** -> Lay on your back with your legs up
+* **/spin (/gspin)** -> Spin on a block
 * **/crawl (/gcrawl)** -> Crawl on the ground
-* **/sit toggle/playertoggle** -> Toggle the ability to rightclick Blocks or Players
-* **/gsitreload (/gsitrl)** -> Reload the Plugin
+* **/sit toggle/playertoggle** -> Toggle the ability to rightclick blocks or players
+* **/gsitreload (/gsitrl)** -> Reloads the plugin
 
 **Permissions**
 
@@ -88,6 +90,7 @@ adapter: modrinth
 * **GSit.PlayerSitToggle** -> Use "/sit playertoggle"
 * **GSit.Lay** -> Use "/lay"
 * **GSit.BellyFlop** -> Use "/bellyflop"
+* **GSit.LegsUp** -> Use "/legsup"
 * **GSit.Spin** -> Use "/spin"
 * **GSit.Crawl** -> Use "/crawl"
 * **GSit.Kick.*** -> Combines "GSit.Kick.Sit & GSit.Kick.Pose"
@@ -96,7 +99,7 @@ adapter: modrinth
 * **GSit.ByPass.*** -> Combines "GSit.ByPass.World"
 * **GSit.ByPass.World** -> Ignore the WorldBlacklist
 
-**Known Bugs / Issues**
+**Bugs / Issues**
 
 If you discover any kind of Bug please instantly contact me on the [**GPlugins Discord Server**](https://discord.gg/Cy2P4AU), so i can fix this as soon as possible!
 
@@ -112,14 +115,13 @@ Here you can find some Videos in diffrent languges which show you the plugin wit
 
 @[YouTube](https://youtu.be/xMLNh_NNqhY)
 @[YouTube](https://youtu.be/UPdtfiMgaRs)
-@[YouTube](https://youtu.be/a06OZj_yRfE)
 
 </details>
 
 **Miscellaneous**
 
 <center>This Plugin supports the Minecraft-Versions:
-1.16, 1.17, 1.18, 1.19, 1.20, 1.21 & 26.1</center>
+1.16, 1.17, 1.18, 1.19, 1.20, 1.21, 26.x</center>
 
 ## Details
 
@@ -129,7 +131,7 @@ Modern Sit (Seat and Chair), Lay and Crawl Plugin
 _client: unsupported · server: required_
 
 **Categories:** adventure, game-mechanics, social
-**Game versions:** 1.21.7, 1.21.8, 1.21.9, 1.21.10, 1.21.11, 26.1, 26.1.1, 26.1.2
+**Game versions:** 1.21.9, 1.21.10, 1.21.11, 26.1, 26.1.1, 26.1.2, 26.2, 26.3
 **Source:** https://github.com/gecolay/GSit
 
 ---

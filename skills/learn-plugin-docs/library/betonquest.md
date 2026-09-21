@@ -2,7 +2,7 @@
 name: BetonQuest
 slug: betonquest
 source_url: https://modrinth.com/mod/betonquest
-fetched_at: 2026-06-07T21:23:02.675Z
+fetched_at: 2026-09-21T09:41:02.603Z
 adapter: modrinth
 ---
 # BetonQuest — condensed reference
@@ -35,7 +35,7 @@ Integrates with 36 of your favorite Plugins!
 _client: unsupported · server: required_
 
 **Categories:** adventure, game-mechanics
-**Game versions:** 1.21.7, 1.21.8, 1.21.9, 1.21.10, 1.21.11, 26.1, 26.1.1, 26.1.2
+**Game versions:** 1.21.9, 1.21.10, 1.21.11, 26.1, 26.1.1, 26.1.2, 26.2, 26.3
 **Source:** https://github.com/BetonQuest/BetonQuest
 **Wiki:** https://betonquest.org
 
