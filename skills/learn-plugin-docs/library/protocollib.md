@@ -2,7 +2,7 @@
 name: dmulloy2/ProtocolLib
 slug: protocollib
 source_url: https://raw.githubusercontent.com/dmulloy2/ProtocolLib/HEAD/Readme.md
-fetched_at: 2026-06-07T21:17:09.601Z
+fetched_at: 2026-10-26T09:48:28.161Z
 adapter: github-readme
 ---
 # dmulloy2/ProtocolLib — condensed reference
@@ -32,12 +32,15 @@ lead to more subtle bugs.
 * [JavaDoc](https://dmulloy2.net/ProtocolLib/javadoc/)
 * [Protocol Wiki](https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol)
 
+`ProtocolLib.jar` is the primary Paper plugin. Spigot servers must use the compatibility artifact,
+`ProtocolLib-Spigot.jar`. The Maven artifact is the platform-neutral library shared by both distributions.
+
 ### Compilation
 
 ProtocolLib is built with [Gradle](https://gradle.org/). If you have it installed, just run
 `./gradlew build` in the root project folder. Other gradle targets you may be interested in 
 include `clean`, `test`, and `shadowJar`. `shadowJar` will create a jar with all dependencies
-(ByteBuddy) included.
+(ByteBuddy) included for both Paper and Spigot.
 
 ### A new API
 
@@ -106,28 +109,34 @@ protocolManager.addPacketListener(new PacketAdapter(
 });
 ````
 
-It's also possible to read and modify the content of these packets. For instance, you can create a global
-censor by listening for Packet3Chat events:
+It's also possible to read and modify the content of packets, including the ones sent by a client. For
+instance, you can censor the text players write on signs by listening for `UPDATE_SIGN` packets:
 
 ````java
-// Censor
+// Censor signs
 protocolManager.addPacketListener(new PacketAdapter(
     this,
     ListenerPriority.NORMAL,
-    PacketType.Play.Client.CHAT
+    PacketType.Play.Client.UPDATE_SIGN
 ) {
     @Override
     public void onPacketReceiving(PacketEvent event) {
         PacketContainer packet = event.getPacket();
-        String message = packet.getStrings().read(0);
+        String[] lines = packet.getStringArrays().read(0);
 
-        if (message.contains("shit") || message.contains("damn")) {
-            event.setCancelled(true);
-            event.getPlayer().sendMessage("Bad manners!");
+        for (int i = 0; i < lines.length; i++) {
+            lines[i] = lines[i].replace("shit", "****").replace("damn", "****");
         }
+
+        packet.getStringArrays().write(0, lines);
     }
 });
 ````
+
+Do not moderate chat this way on Minecraft 1.19 and newer. Chat messages are signed there, and cancelling
+or modifying an inbound `PacketType.Play.Client.CHAT` packet before the server has validated it can leave
+the signed-message chain out of sync, so that later messages from the same player are rejected. Use the
+Bukkit or Paper chat event API instead, where the server has already processed the signed packet.
 
 ### Sending packets
 

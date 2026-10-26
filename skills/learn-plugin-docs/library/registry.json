@@ -22,7 +22,7 @@
         "vaultunlocked"
       ],
       "file": "vault.md",
-      "url": "https://github.com/MilkBowl/Vault"
+      "url": "https://raw.githubusercontent.com/MilkBowl/Vault/HEAD/README.md"
     },
     "placeholderapi": {
       "aliases": [
@@ -82,7 +82,7 @@
         "ia"
       ],
       "file": "itemsadder.md",
-      "url": "https://itemsadder.devs.beer/"
+      "url": "https://itemsadder.devs.beer/llms.txt"
     },
     "oraxen": {
       "aliases": [],
@@ -109,7 +109,7 @@
         "gp"
       ],
       "file": "griefprevention.md",
-      "url": "https://github.com/GriefPrevention/GriefPrevention"
+      "url": "https://raw.githubusercontent.com/GriefPrevention/GriefPrevention/HEAD/README.md"
     },
     "skript": {
       "aliases": [
@@ -130,7 +130,7 @@
         "townyadvanced"
       ],
       "file": "towny.md",
-      "url": "https://github.com/TownyAdvanced/Towny"
+      "url": "https://raw.githubusercontent.com/TownyAdvanced/Towny/HEAD/README.md"
     },
     "mcmmo": {
       "aliases": [],
@@ -149,19 +149,19 @@
         "dm"
       ],
       "file": "deluxemenus.md",
-      "url": "https://wiki.helpch.at/clips-plugins/deluxemenus"
+      "url": "https://wiki.helpch.at/clips-plugins/deluxemenus.md"
     },
     "grimac": {
       "aliases": [
         "grim"
       ],
       "file": "grimac.md",
-      "url": "https://github.com/GrimAnticheat/Grim"
+      "url": "https://raw.githubusercontent.com/GrimAnticheat/Grim/HEAD/README.md"
     },
     "dynmap": {
       "aliases": [],
       "file": "dynmap.md",
-      "url": "https://github.com/webbukkit/dynmap"
+      "url": "https://raw.githubusercontent.com/webbukkit/dynmap/HEAD/README.md"
     },
     "bluemap": {
       "aliases": [],
@@ -171,7 +171,7 @@
     "chunky": {
       "aliases": [],
       "file": "chunky.md",
-      "url": "https://github.com/pop4959/Chunky"
+      "url": "https://raw.githubusercontent.com/pop4959/Chunky/HEAD/README.md"
     },
     "spark": {
       "aliases": [],
@@ -181,12 +181,12 @@
     "tab": {
       "aliases": [],
       "file": "tab.md",
-      "url": "https://github.com/NEZNAMY/TAB/wiki"
+      "url": "https://raw.githubusercontent.com/wiki/NEZNAMY/TAB/Home.md"
     },
     "protocollib": {
       "aliases": [],
       "file": "protocollib.md",
-      "url": "https://github.com/dmulloy2/ProtocolLib"
+      "url": "https://raw.githubusercontent.com/dmulloy2/ProtocolLib/HEAD/Readme.md"
     },
     "multiverse-core": {
       "aliases": [

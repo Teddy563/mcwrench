@@ -2,7 +2,7 @@
 name: AuthMe/AuthMeReloaded
 slug: authmereloaded
 source_url: https://raw.githubusercontent.com/AuthMe/AuthMeReloaded/HEAD/README.md
-fetched_at: 2026-06-07T21:23:04.741Z
+fetched_at: 2026-10-26T09:48:33.188Z
 adapter: github-readme
 ---
 # AuthMe/AuthMeReloaded — condensed reference

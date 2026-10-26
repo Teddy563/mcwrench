@@ -2,7 +2,7 @@
 name: HuskChat
 slug: huskchat
 source_url: https://modrinth.com/mod/huskchat
-fetched_at: 2026-06-07T21:22:56.285Z
+fetched_at: 2026-10-26T09:48:29.415Z
 adapter: modrinth
 ---
 # HuskChat — condensed reference

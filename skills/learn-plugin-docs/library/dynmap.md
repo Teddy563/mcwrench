@@ -2,7 +2,7 @@
 name: webbukkit/dynmap
 slug: dynmap
 source_url: https://raw.githubusercontent.com/webbukkit/dynmap/HEAD/README.md
-fetched_at: 2026-06-07T21:17:11.636Z
+fetched_at: 2026-10-26T09:48:26.277Z
 adapter: github-readme
 ---
 # webbukkit/dynmap — condensed reference

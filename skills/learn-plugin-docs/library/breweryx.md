@@ -2,7 +2,7 @@
 name: BreweryX
 slug: breweryx
 source_url: https://modrinth.com/mod/breweryx
-fetched_at: 2026-06-07T21:35:56.441Z
+fetched_at: 2026-10-26T09:48:36.418Z
 adapter: modrinth
 ---
 # BreweryX — condensed reference
@@ -16,7 +16,7 @@ An actively maintained, support given, and addon supported fork of Brewery with 
 _client: unsupported · server: required_
 
 **Categories:** adventure, food, game-mechanics
-**Game versions:** 1.21.7, 1.21.8, 1.21.9, 1.21.10, 1.21.11, 26.1, 26.1.1, 26.1.2
+**Game versions:** 1.21.8, 1.21.9, 1.21.10, 1.21.11, 26.1, 26.1.1, 26.1.2, 26.2
 **Source:** https://github.com/BreweryTeam/BreweryX
 **Wiki:** https://docs.breweryteam.dev/docs/breweryx
 
