@@ -2,7 +2,7 @@
 name: DriveBackupV2
 slug: drivebackupv2
 source_url: https://modrinth.com/mod/drivebackupv2
-fetched_at: 2026-06-07T21:35:57.023Z
+fetched_at: 2026-11-09T12:35:18.391Z
 adapter: modrinth
 ---
 # DriveBackupV2 — condensed reference
@@ -45,7 +45,7 @@ DriveBackupV2 is a plugin that aims to provide an extra layer of security to you
 _client: unsupported · server: required_
 
 **Categories:** management, storage, utility
-**Game versions:** 1.21.7, 1.21.8, 1.21.9, 1.21.10, 1.21.11, 26.1, 26.1.1, 26.1.2
+**Game versions:** 1.9, 1.9.1, 1.9.2, 1.9.3, 1.9.4, 26.1, 26.1.1, 26.1.2
 **Source:** https://github.com/MaxMaeder/DriveBackupV2
 **Wiki:** https://github.com/MaxMaeder/DriveBackupV2/wiki
 

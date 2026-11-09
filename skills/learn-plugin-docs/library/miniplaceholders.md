@@ -2,7 +2,7 @@
 name: MiniPlaceholders
 slug: miniplaceholders
 source_url: https://modrinth.com/mod/miniplaceholders
-fetched_at: 2026-06-07T21:22:58.453Z
+fetched_at: 2026-11-09T12:35:10.878Z
 adapter: modrinth
 ---
 # MiniPlaceholders — condensed reference
@@ -19,10 +19,10 @@ Check our [user usage wiki](https://miniplaceholders.github.io/docs/user-guide/U
 ## MiniPlaceholders
 MiniMessage Component-based Placeholders API for Minecraft Platforms
 
-_client: unknown · server: unknown_
+_client: unsupported · server: required_
 
 **Categories:** decoration, library, utility
-**Game versions:** 1.21.5, 1.21.6, 1.21.7, 1.21.8, 1.21.9, 1.21.10, 1.21.11, 26.1
+**Game versions:** 23w18a, 23w31a, 23w32a, 23w33a, 26.1, 26.1.1, 26.1.2, 26.2
 **Source:** https://github.com/MiniPlaceholders/MiniPlaceholders/
 **Wiki:** https://miniplaceholders.github.io/docs/category/user-guide
 

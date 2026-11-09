@@ -2,7 +2,7 @@
 name: SignedVelocity
 slug: signedvelocity
 source_url: https://modrinth.com/mod/signedvelocity
-fetched_at: 2026-06-07T21:22:59.444Z
+fetched_at: 2026-11-09T12:35:11.347Z
 adapter: modrinth
 ---
 # SignedVelocity — condensed reference
@@ -24,10 +24,10 @@ In order for SignedVelocity to work, you must install it on both Velocity and al
 ## SignedVelocity
 Allows you to cancel or modify messages or commands from Velocity without synchronization problems
 
-_client: unknown · server: unknown_
+_client: unsupported · server: required_
 
 **Categories:** technology, utility
-**Game versions:** 1.21.5, 1.21.6, 1.21.7, 1.21.8, 1.21.9, 1.21.10, 1.21.11, 26.1
+**Game versions:** 1.9.2, 1.9.3, 1.9.4, 26.1, 26.1.1, 26.1.2, 26.2, 26.3
 **Source:** https://github.com/4drian3d/SignedVelocity
 
 ---

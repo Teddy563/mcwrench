@@ -2,7 +2,7 @@
 name: ServerUtils
 slug: serverutils
 source_url: https://modrinth.com/mod/serverutils
-fetched_at: 2026-06-07T21:22:57.743Z
+fetched_at: 2026-11-09T12:35:10.627Z
 adapter: modrinth
 ---
 # ServerUtils — condensed reference
@@ -21,7 +21,7 @@ Reload plugins - Unload unused commands - PluginWatcher - Command/PluginInfo - A
 _client: unsupported · server: required_
 
 **Categories:** utility
-**Game versions:** 1.17.1, 1.18, 1.18.1, 1.18.2, 1.19, 1.19.1, 1.19.2, 1.19.3
+**Game versions:** 1.8.7, 1.8.8, 1.8.9, 1.9, 1.9.1, 1.9.2, 1.9.3, 1.9.4
 **Source:** https://github.com/FrankHeijden/ServerUtils
 **Wiki:** https://github.com/FrankHeijden/ServerUtils/wiki
 

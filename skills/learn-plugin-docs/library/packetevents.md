@@ -2,7 +2,7 @@
 name: PacketEvents
 slug: packetevents
 source_url: https://modrinth.com/mod/packetevents
-fetched_at: 2026-06-07T21:22:58.931Z
+fetched_at: 2026-11-09T12:35:11.100Z
 adapter: modrinth
 ---
 # PacketEvents — condensed reference
@@ -16,7 +16,7 @@ PacketEvents is a protocol library tailored to Minecraft Java Edition, designed 
 _client: unknown · server: unknown_
 
 **Categories:** library, technology, utility
-**Game versions:** 1.21.7, 1.21.8, 1.21.9, 1.21.10, 1.21.11, 26.1, 26.1.1, 26.1.2
+**Game versions:** 1.9.2, 1.9.3, 1.9.4, 26.1, 26.1.1, 26.1.2, 26.2, 26.3
 **Source:** https://github.com/retrooper/packetevents
 **Wiki:** https://github.com/retrooper/packetevents/wiki/Depending-on-pre%E2%80%90built-PacketEvents
 
