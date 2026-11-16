@@ -2,7 +2,7 @@
 name: libraryaddict/LibsDisguises
 slug: libsdisguises
 source_url: https://raw.githubusercontent.com/libraryaddict/LibsDisguises/HEAD/README.md
-fetched_at: 2026-06-07T21:37:08.018Z
+fetched_at: 2026-11-16T12:28:59.281Z
 adapter: github-readme
 ---
 # libraryaddict/LibsDisguises — condensed reference

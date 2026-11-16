@@ -2,7 +2,7 @@
 name: lucko/BungeeGuard
 slug: bungeeguard
 source_url: https://raw.githubusercontent.com/lucko/BungeeGuard/HEAD/README.md
-fetched_at: 2026-06-07T21:23:00.882Z
+fetched_at: 2026-11-16T12:28:52.178Z
 adapter: github-readme
 ---
 # lucko/BungeeGuard — condensed reference

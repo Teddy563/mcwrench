@@ -2,7 +2,7 @@
 name: IntellectualSites/PlotSquared
 slug: plotsquared
 source_url: https://raw.githubusercontent.com/IntellectualSites/PlotSquared/HEAD/README.md
-fetched_at: 2026-06-07T21:24:59.509Z
+fetched_at: 2026-11-16T12:28:56.399Z
 adapter: github-readme
 ---
 # IntellectualSites/PlotSquared — condensed reference

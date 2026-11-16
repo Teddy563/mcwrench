@@ -2,7 +2,7 @@
 name: ProtectionStones
 slug: protectionstones
 source_url: https://modrinth.com/mod/protectionstones
-fetched_at: 2026-06-07T21:35:56.724Z
+fetched_at: 2026-11-16T12:28:58.463Z
 adapter: modrinth
 ---
 # ProtectionStones — condensed reference

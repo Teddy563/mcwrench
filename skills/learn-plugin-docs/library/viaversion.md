@@ -2,7 +2,7 @@
 name: ViaVersion
 slug: viaversion
 source_url: https://hangar.papermc.io/ViaVersion/ViaVersion
-fetched_at: 2026-06-07T21:17:08.692Z
+fetched_at: 2026-11-16T12:28:33.708Z
 adapter: hangar
 ---
 # ViaVersion — condensed reference
@@ -14,7 +14,7 @@ adapter: hangar
 Allow newer Java Edition versions to connect, why lose players after a Minecraft update?
 
 **Category:** misc
-**Downloads:** 411656
+**Downloads:** 531168
 
 ---
 _No main page content returned by Hangar._
